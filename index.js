@@ -69,3 +69,11 @@ document.getElementById("clear-btn").addEventListener("click", function() {
     callHistory.length = 0;
     history();
 });
+// copy btn
+document.getElementById("copy-btn").addEventListener("click", function() {
+    const balanceElement = document.getElementById("coin-count");
+    const currentBalance = parseInt(balanceElement.innerText);
+    const newBalance = currentBalance + 100;
+    balanceElement.innerText = newBalance;
+    alert("100 coins added to your balance!");
+});
