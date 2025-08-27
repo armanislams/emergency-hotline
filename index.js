@@ -48,7 +48,7 @@ const callBtns = document.getElementsByClassName("call-btn");
     history();
     });
 }
-\// history section
+// history section
 
 function history (){
     const historyContainer = document.getElementById("history-cards");
@@ -64,3 +64,8 @@ function history (){
     historyContainer.appendChild(card);
 }
 }
+// clear btn
+document.getElementById("clear-btn").addEventListener("click", function() {
+    callHistory.length = 0;
+    history();
+});
