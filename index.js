@@ -48,3 +48,19 @@ const callBtns = document.getElementsByClassName("call-btn");
     history();
     });
 }
+\// history section
+
+function history (){
+    const historyContainer = document.getElementById("history-cards");
+    historyContainer.innerHTML = ' ';
+    for (const call of callHistory) {
+    const card = document.createElement("div");
+    card.className = "history-card";
+    card.innerHTML = `
+        <div class = "flex justify-between items-center mb-10"><div><h2>${call.name}</h2>
+        <h3>${call.number}</h3></div>
+        <div><h3>${call.date}</h3></div></div>
+    `;
+    historyContainer.appendChild(card);
+}
+}
