@@ -13,11 +13,11 @@
     <nav class="flex justify-between items-center lg:h-5 lg:p-15 bg-white">
         <div class="flex lg:justify-between flex-col lg:flex-row items-center lg:gap-2 my-4">
             <img class="lg:h-[80px] h-[50px] lg:w-[80px] w-[50px]" src="assets/logo.png" alt="Emergency Hotline Logo">
-            <h1 class="lg:text-3xl text-xl lg:break-all lg:max-w-39 text-center font-bold text-green-900">Emergency Services</h1>
+            <h1 class="lg:text-3xl text-xl lg:break-all lg:max-w-39 lg:text-left text-center font-bold text-green-900">Emergency Services</h1>
         </div>
         <div class="flex lg:flex-row lg:gap-4 h-15 gap-3">
             <div class="bg-[#41ff6a1a] rounded-full p-5 lg:p-5 flex justify-between items-center gap-2 h-3 lg:h-12">
-                <h3 class="lg:text-3xl"><span>0</span></h3>
+                <h3 class="lg:text-3xl" id="heart-count"><span>0</span></h3>
                 <img class="h-[30px] lg:h-9" src="assets/heart.png" alt="Heart Icon">
             </div>
             <div class="bg-[#41ff6a1a] rounded-full p-5 lg:p-5 flex justify-between items-center gap-1 h-3 lg:h-12 ">
@@ -46,7 +46,7 @@
             <div id="999" class="shadow-lg p-4 ml-1 lg:h-[260px] w-[200px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-12 w-12 bg-[#ffe3e2] rounded-full p-3" src="assets/emergency.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart "></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">National Emergency Number</h2>
@@ -64,7 +64,7 @@
             <div id="police" class="shadow-lg p-4 ml-1 lg:h-[260px] w-[200px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-12 w-12 bg-[#ffe3e2] rounded-full p-3" src="assets/police.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Police Helpline Number</h2>
@@ -82,7 +82,7 @@
                 <div id="fire-service" class="shadow-lg p-4 ml-1 w-[200px] lg:h-[260px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-10 w-10 bg-[#ffe3e2] rounded-full p-3" src="assets/fire-service.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Fire Service Number</h2>
@@ -100,7 +100,7 @@
             <div id="ambulance" class="shadow-lg p-4 ml-1 w-[200px] lg:h-[260px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-10 w-10 bg-[#ffe3e2] rounded-full p-3" src="assets/ambulance.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Ambulance Number</h2>
@@ -118,7 +118,7 @@
             <div id="women" class="shadow-lg p-4 ml-1 w-[200px] lg:h-[260px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-10 w-10 bg-[#ffe3e2] rounded-full p-3" src="assets/emergency.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Women & Child Helpline</h2>
@@ -136,7 +136,7 @@
             <div id="anti-corp" class="shadow-lg p-4 ml-1 w-[200px] lg:h-[260px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-10 w-10 bg-[#ffe3e2] rounded-full p-3" src="assets/emergency.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Anti-Corruption Helpline</h2>
@@ -154,7 +154,7 @@
             <div id="electricity" class="shadow-lg p-4 ml-1 w-[200px] lg:h-[260px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-10 w-10 bg-[#ffe3e2] rounded-full p-3" src="assets/emergency.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Electricity Helpline</h2>
@@ -172,7 +172,7 @@
             <div id="brac" class="shadow-lg p-4 ml-1 w-[200px] lg:h-[260px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-10 w-10 bg-[#ffe3e2] rounded-full p-3" src="assets/emergency.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Brac Helpline</h2>
@@ -190,7 +190,7 @@
             <div id="railway" class="shadow-lg p-4 ml-1 w-[200px] lg:h-[260px] lg:w-[300px] bg-white rounded-lg">
                 <div class="flex justify-between ">
                     <img class="h-10 w-10 bg-[#ffe3e2] rounded-full p-3" src="assets/emergency.png" alt="">
-                    <div class="mt-2"><i class="fa-regular fa-heart"></i></div>
+                    <div class="heart mt-2"><i class="fa-regular fa-heart"></i></div>
                 </div>
                 <div class="mt-2 mb-3">
                     <h2 class="font-bold">Bangladesh Railway Helpline</h2>

@@ -6,7 +6,15 @@ for (const btn of btns){
         navigator.clipboard.writeText(this.parentElement.parentElement.querySelector("h3").innerText);
     });
 }
-
+// heart icon
+const heartBtns = document.getElementsByClassName("heart");
+for (const btn of heartBtns){
+    btn.addEventListener("click", function() {
+        const countElement = document.getElementById("heart-count");
+        countElement.innerText = parseInt(countElement.innerText) + 1;
+    });
+}
+    
 // deduct coins
 function deductCoins(amount) {
     const balanceElement = document.getElementById("coin-count");
